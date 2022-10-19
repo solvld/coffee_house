@@ -39,7 +39,7 @@ body{
 }
 .home{
   height: 622px;
-  background-image: url(images/head.jpeg);
+  background-image: url(https://source.unsplash.com/vSuQJKZkt4U/1920x1080);
   background-size: cover;
   background-position: 25% 80%;
   display: flex;
@@ -114,6 +114,10 @@ body{
   font-weight: 400;
   font-size: 24px;
 }
+.card__title:hover{
+ opacity: 0.6;
+ cursor: pointer;
+}
 .card__text{
   width: 325px;
   font-weight: 300;
@@ -161,6 +165,7 @@ body{
   border: 0;
 }
 .submit:hover{
+  cursor: pointer;
   background-color: #817070;
   opacity: 0.4;
   color: #ffff;
@@ -176,4 +181,10 @@ body{
   font-size: 20px;
   line-height: 72px;
   text-align: center;
+}
+input{
+  color: #ffffff;
+}
+input::placeholder {
+  color: #ffffff;
 }
